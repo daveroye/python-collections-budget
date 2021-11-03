@@ -18,4 +18,5 @@ fig, ax = plt.subplots()
 
 ax.bar(categories, count)
 ax.set_title('# of Purchases by Category')
-plt.savefig("expensePlot.png")
+plt.show()
+# plt.savefig("expensePlot.png")
